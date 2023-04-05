@@ -5,6 +5,7 @@ from pydantic import BaseModel, Field
 app = FastAPI(title="Sample FastAPI",
               description="For education", version="1.0")
 
+<<<<<<< HEAD
 data = {1: "John", 2: "jane"}
 
 @app.get("/api/people")
@@ -25,6 +26,11 @@ class People(BaseModel):
 def add_one_people(data: People):
     print(data)
     return data
+=======
+@app.get("/")
+def read_root():
+    return {"Hello": "Earth 2023"}
+>>>>>>> 57b8c5e (D)
 
 
 if __name__ == "__main__":
