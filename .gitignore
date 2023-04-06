@@ -1,1 +1,2 @@
-*/__pycaches__/*
+**/__pycache__/
+*.pem
