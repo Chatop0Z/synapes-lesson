@@ -30,7 +30,10 @@ def add_one_people(data: People):
 @app.get("/")
 def read_root():
     return {"Hello": "Earth 2023"}
+<<<<<<< HEAD
 >>>>>>> 57b8c5e (D)
+=======
+>>>>>>> 57b8c5e1e3ad998c41fe9713383f1673959591e1
 
 
 if __name__ == "__main__":
